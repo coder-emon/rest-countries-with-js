@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+#countries{
+    width: 90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2rem;
+    justify-content: center;
+}
+.country{
+    background-color: rgb(91, 110, 110);
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    border:1px solid darkcyan;
+    border-radius: 5px;
+    color: white;
+}
